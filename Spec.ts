@@ -9,7 +9,7 @@ describe('This is a sample application to test consumption', function(){
     //browser.get('http://www.globalsqa.com/angularJs-protractor/ConsumptionCalculator/');
       browser.get(browser.params.testUrl);
       element(by.xpath('/html/body/form[1]/p/input')).sendKeys(5);
-      browser.sleep(5000);
+     // browser.sleep(5000);
       element(by.xpath('/html/body/form[1]/div/p[3]')).getText().then(function(coffeMsg){
         console.log('Text present on screen is : ' + coffeMsg);
         element(by.xpath('/html/body/form[2]/p/input')).sendKeys(8);
