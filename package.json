@@ -1,0 +1,20 @@
+{
+  "name": "consumptioncalculator",
+  "version": "1.0.0",
+  "description": "This is a sample protractor app.",
+  "main": "Config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "i": "^0.3.6",
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "protractor-html-screenshot-reporter": "0.0.21"
+  }
+}
